@@ -6,7 +6,8 @@ import numpy as np
 import shutil
 import tensorflow_hub as hub
 import tensorflow.python.keras.optimizers as opt
-
+import tensorflow_text as text
+from official.nlp import optimization
 sample_file = "main_directory/class_a/text.txt"
 data_dir="main_directory"
 
